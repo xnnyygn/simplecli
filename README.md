@@ -10,11 +10,11 @@ your cli
 
     object FunnyCli extends simplecli.CliSupport {
 		  def main(prefix: String, suffix: String): Unit = println(prefix + suffix)
-	  }
+    }
 
 in sbt console
 
-   run --prefix a --suffix b
+    run --prefix a --suffix b
 
 will produce
 
